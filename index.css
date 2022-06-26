@@ -14,42 +14,47 @@ li, ol, ul, a, button{
     color:#0055ff;
     text-decoration:none;
 }
-.div01{
+#div01{
     position: relative;
     width: 100%;
     height: 64px;
     display: flex;
     align-items: center;
 }
-.div1{
+#div1{
     position: relative;
-    width:450px;
+    width:400px;
     height:64px;
     /* top:50px; */
     background:skyblue no-repeat center center;
 }
-.div2{
+#div2{
     position: relative;
-    width:300px;
+    width:250px;
     height:64px;
     left: 800px;
     /* top:50px; */
     background:skyblue no-repeat center center;
 }
-.div02{
+#divexam{
+    display:flex;
+    width: 100%;
+    height:100px;
+}
+#div02{
     position: relative;
-    margin-right: 40px;
+    margin-right: 10px;
     width:100px;
     height:100px;
     /* top:50px; */
     background:greenyellow no-repeat center center;
     transition: width 2s;
 }
-.div02:hover
+#div02:hover
 {
     width:200px;
 }
-.box1{
+#box1{
     position: relative;
     left:10px;
     margin-left: 20px;
@@ -60,7 +65,7 @@ li, ol, ul, a, button{
     align-items: center;
     /* margin-right: 0px; */
 }
-.box2{
+#box2{
     position: relative;
     margin-left: 20px;
     width:50px;
@@ -70,7 +75,7 @@ li, ol, ul, a, button{
     align-items: center;
     /* margin-right: 0px; */
 }
-.box3{
+#box3{
     position: relative;
     margin-left: 20px;
     width:70px;
@@ -80,7 +85,7 @@ li, ol, ul, a, button{
     align-items: center;
     /* margin-right: 0px; */
 }    
-.btn01{
+#btn01{
     width: 30px;
     height: 30px;
     background-color: #ffffff;
@@ -103,8 +108,8 @@ body{
     width: 900px;
     height: 2000px;
 }
-.btn02{
-    position: fixed;
+#btn02{
+    position: absolute;
     width:120px; height:64px;
     background: red no-repeat center center;
     background-attachment:fixed;
@@ -112,17 +117,20 @@ body{
     border: 0px skyblue solid;
     left: 220px;
     top: 0px;
+    z-index:10;
     /* margin-right: 0px; */
 }
-.box0{
+#box0{
     width:120px; height:64px;
     border:1px skyblue solid;
     text-align: center;
-    position: fixed;
+    position: absolute;
     left: 220px;
-    top: -64px;
+    top: 0px;
+    z-index:5;
     transition:top .5s linear;
 }
-.box0.box{
+#btn02:hover~#box0{
+/* .box0.box{ */
     top:64px;
 }
