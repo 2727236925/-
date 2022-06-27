@@ -23,17 +23,17 @@ li, ol, ul, a, button{
 }
 #div1{
     position: relative;
-    width:400px;
+    width:440px;
     height:64px;
     /* top:50px; */
     background:skyblue no-repeat center center;
 }
 #div2{
     position: relative;
-    width:250px;
+    width:440px;
     height:64px;
-    left: 800px;
-    /* top:50px; */
+    left: 600px;
+    /* top:50px; */ 
     background:skyblue no-repeat center center;
 }
 #divexam{
@@ -78,7 +78,7 @@ li, ol, ul, a, button{
 #box3{
     position: relative;
     margin-left: 20px;
-    width:70px;
+    width:75px;
     height:64px;
     background: red no-repeat center center;
     display: flex;
