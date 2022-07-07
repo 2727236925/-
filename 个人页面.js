@@ -14,7 +14,7 @@ onscroll=function() {
 var timer=0
 btn01.onclick=function(){
     timer=setInterval(function(){
-    document.documentElement.scrollTop -= 30;
+    document.documentElement.scrollTop -= 60;
     if(document.documentElement.scrollTop<=0)
         clearInterval(timer)
  },30)
